@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ssh -i ~/.ssh/hungaryAndThirsty.pem ubuntu@ec2-35-164-165-33.us-west-2.compute.amazonaws.com 'cd Hungary-and-Thirsty; git pull; npm install'
+ssh -i ~/.ssh/hungaryAndThirsty.pem ubuntu@ec2-35-164-165-33.us-west-2.compute.amazonaws.com 'cd Hungary-and-Thirsty; git pull; npm install; pm2 restart HungaryAndThirsty'
 

@@ -10,7 +10,7 @@ app
   .use(express.static(staticAssets))
   .use(favicon(faviconPath))
   .get('/', (req, res) => {
-    res.send("Testo!")
+    res.send("Final test!")
   })
 
 app.listen(21517, () => console.log('[INFO] Running server on port 21517'))
